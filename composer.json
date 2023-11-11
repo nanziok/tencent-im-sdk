@@ -1,0 +1,36 @@
+{
+    "name": "nanziok/tencent-im-sdk",
+    "description": "腾讯IM操作",
+    "type": "library",
+    "require": {
+        "illuminate/support": ">=5.0",
+        "nanziok/tencent-im": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": ">=7.4.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "nanziok",
+            "email": "596880630@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nanziok\\TencentIMSDK\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nanziok\\TencentIMSDK\\ServiceProvider"
+            ],
+            "aliases": {
+                "TencentCloudSdkIm": "Nanziok\\TencentIMSDK\\TencentCloudSdkIm"
+            }
+        }
+    }
+}
