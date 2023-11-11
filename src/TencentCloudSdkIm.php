@@ -24,7 +24,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      *资料管理
-     * @return \Nanziok\TencentIM\Api\Api\Profile
+     * @return \Nanziok\TencentIM\Api\Profile
      */
     public static function Profile()
     {
@@ -33,7 +33,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 朋友
-     * @return \Nanziok\TencentIM\Api\Api\Friend
+     * @return \Nanziok\TencentIM\Api\Friend
      */
     public static function Friend()
     {
@@ -42,7 +42,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 关系链管理(好友黑名单)
-     * @return \Nanziok\TencentIM\Api\Api\FriendBlacklist
+     * @return \Nanziok\TencentIM\Api\FriendBlacklist
      */
     public static function FriendBlacklist()
     {
@@ -51,7 +51,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 群组管理
-     * @return \Nanziok\TencentIM\Api\Api\Group
+     * @return \Nanziok\TencentIM\Api\Group
      */
     public static function Group()
     {
@@ -60,7 +60,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 群组管理(消息)
-     * @return \Nanziok\TencentIM\Api\Api\GroupMessage
+     * @return \Nanziok\TencentIM\Api\GroupMessage
      */
     public static function GroupMessage()
     {
@@ -69,7 +69,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 单聊管理
-     * @return \Nanziok\TencentIM\Api\Api\ChatMessage
+     * @return \Nanziok\TencentIM\Api\ChatMessage
      */
     public static function ChatMessage()
     {
@@ -78,7 +78,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 群组管理(导入相关)
-     * @return \Nanziok\TencentIM\Api\Api\ImportGroup
+     * @return \Nanziok\TencentIM\Api\ImportGroup
      */
     public static function ImportGroup()
     {
@@ -87,7 +87,7 @@ class TencentCloudSdkIm extends LaravelFacade
 
     /**
      * 全局管理
-     * @return \Nanziok\TencentIM\Api\Api\GlobalConfig
+     * @return \Nanziok\TencentIM\Api\GlobalConfig
      */
     public static function GlobalConfig()
     {
